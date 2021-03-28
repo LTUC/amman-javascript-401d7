@@ -1,0 +1,30 @@
+{
+  "name": "401d07-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon",
+    "test": "jest --coverage --verbose",
+    "lint": "eslint '**/*.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mahmoudkhudairi/401d07-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mahmoudkhudairi/401d07-server/issues"
+  },
+  "homepage": "https://github.com/mahmoudkhudairi/401d07-server#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "eslint": "^7.23.0",
+    "express": "^4.17.1",
+    "jest": "^26.6.3",
+    "supertest": "^6.1.3"
+  }
+}
