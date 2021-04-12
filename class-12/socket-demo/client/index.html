@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Socket.io</title>
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li>ASAC Help Desk</li>
+          <li><a href="/client/index.html">home</a></li>
+          <li><a href="/client/admin.html">admin</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="form-card">
+        <form id="questions-form">
+          <input
+            class="question"
+            type="text"
+            name="question"
+            placeholder="write your question here..."
+            required
+          />
+          <label class="lab"
+            ><input type="radio" name="type" value="lab" required /> lab</label
+          >
+          <label class="cc"
+            ><input type="radio" name="type" value="code challenge" /> cc</label
+          >
+          <label class="course"
+            ><input type="radio" name="course" value="201" required /> 201</label
+          >
+          <label class="course"
+            ><input type="radio" name="course" value="301" /> 301</label
+          >
+          <label class="course"
+            ><input type="radio" name="course" value="401js" />401js</label
+          >
+          <label class="course"
+            ><input type="radio" name="course" value="401py" />401py</label
+          >
+          <label class="course"
+            ><input type="radio" name="course" value="401java" />401java</label
+          >
+          <button class="question">help!</button>
+        </form>
+      </section>
+    </main>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.js"
+      integrity="sha512-q/dWJ3kcmjBLU4Qc47E4A9kTB4m3wuTY7vkFJDTZKjTs8jhyGQnaUrxa0Ytd0ssMZhbNua9hE+E7Qv1j+DyZwA=="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
