@@ -1,0 +1,9 @@
+ul {
+  list-style: none;
+}
+span {
+  margin-left: 10px;
+}
+span.disabled {
+  text-decoration: line-through;
+}
